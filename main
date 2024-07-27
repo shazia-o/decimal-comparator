@@ -1,0 +1,18 @@
+public class DecimalComparator {
+  //This is a small program that determines if two numbers are equal, up to three decimal places
+    
+    public static boolean areEqualByThreeDecimalPlaces (double one, double two) {
+    
+        //casting
+        long i = (long)(one * 1000); 
+        long e = (long)(two * 1000);
+        
+        if (i == e) {
+            return true;
+        } else {
+            return false;
+        }
+        
+    }
+
+}
